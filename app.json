@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Social EGG",
+    "slug": "SocialEgg",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "sdkVersion": "37.0.0",
+    "packagerOpts": {
+      "nonPersistent": false
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "scheme": "socialegg",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "web": {
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyBbiloK5A_BgDD9V8OTepsFXMj1tAMRnJg",
+          "measurementId": "G-FZT2Q5HQC6"
+        }
+      }
+    },
+    "android": {
+      "package": "com.SocialEGG.SocialEGG",
+      "playStoreUrl":"https://play.google.com/store/apps/details?id=com.SocialEGG.SocialEGG",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "notification": {
+      "icon": "./assets/logo.png",
+
+      "color": "#2e2e2e",
+      "androidMode": "default",
+
+      "androidCollapsedTitle": "#{unread_notifications} new interactions"
+    
+
+  },
+
+    
+    "androidNavigationBar": {
+    "barStyle": "light-content",
+    "backgroundColor": "#2e2e2e"
+  }
+  }
+  
+}
