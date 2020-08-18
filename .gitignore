@@ -9,9 +9,9 @@ npm-debug.*
 *.orig.*
 web-build/
 web-report/
-C:\temp/
-.expo-shared/
-.vscode/
+C:\temp
+.expo-shared
+.vscode
 
 # macOS
 .DS_Store
